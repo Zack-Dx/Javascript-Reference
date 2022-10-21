@@ -42,10 +42,6 @@
 // return accumulator += elem
 // })
 
-
-
-
-
 // console.log(arr2)
 
 // Reduce Method
@@ -66,7 +62,9 @@
 // let arr = [1, 2, 3];
 
 // let sum = arr.reduce((accumulator, element, index, array) => {
+//     debugger;
 //   return (accumulator += element);
-// });
+// },7); //7 here is an initial value.(optional)
 
 // console.log(sum);
+
