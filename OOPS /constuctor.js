@@ -29,3 +29,9 @@ console.log(John);
 
 John.deposit(510); //Called and Parameter passed.
 Zack.withdraw(500);
+
+//Arrays and Objects both are constructors.
+
+// We get .map, .filter and etc many more methods just because of the Array Contructor in javascript.
+
+//To check Array's prototype  = Array.protoype
