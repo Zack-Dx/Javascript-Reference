@@ -31,3 +31,29 @@ const a = function () {
 };
 
 a();
+
+//Callbacks in a function: (Passing a function as an argument)
+
+function textformatter(word, func) {
+  return typeof func === "function" ? func(word) : word.toUpperCase();
+}
+
+//One Liner Callback Function:
+const check = textformatter("harsh",(harsh) => harsh.charAt(0).toUpperCase() + harsh.slice(1));
+
+console.log(check);
+
+//IIFE (Immediately invoked function expression.)
+
+(function setup() {
+  console.log("Setup Done");
+})(); // Here the function will called itself.
+
+
+//Good Practices to follow:
+
+// Use verbs to declare names = get,show,calc
+
+//One function = One action (Action as per name)
+
+//Function name should be descriptive (Don't use a,b,c or such to declare functions.)
