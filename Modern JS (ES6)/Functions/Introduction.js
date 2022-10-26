@@ -23,3 +23,11 @@ const result = (maths, physics) => {
 console.log(result(70, 70));
 
 //Return keyword can be avoided if the function is a one-line function.
+
+//Function Expressions is nothing just declaring a function and storing it into a variable.
+
+const a = function () {
+  console.log("FUNCTION EXPRESSION");
+};
+
+a();
