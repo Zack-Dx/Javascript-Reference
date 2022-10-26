@@ -39,7 +39,7 @@ function textformatter(word, func) {
 }
 
 //One Liner Callback Function:
-const check = textformatter("harsh",(harsh) => harsh.charAt(0).toUpperCase() + harsh.slice(1));
+const check = textformatter("zack",(zack) => zack.charAt(0).toUpperCase() + zack.slice(1));
 
 console.log(check);
 
