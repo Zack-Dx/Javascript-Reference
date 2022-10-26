@@ -1,4 +1,4 @@
-// `this` keyword refers to the object it belongs to in javascript.
+// `this` keyword refers to the object in javascript.
 
 // It has different values because it's based where it's usec.
 
