@@ -1,6 +1,6 @@
 // `this` keyword refers to the object in javascript.
 
-// It has different values because it's based where it's usec.
+// It has different values because it's based where it's used.
 
 // Alone, this refers to the Global Object. basically (Window Object)
 
