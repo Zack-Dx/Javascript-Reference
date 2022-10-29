@@ -22,10 +22,10 @@ console.log(user);
 
 // As we can see check.property same as object!
 
-const check = () => {
-  console.log("checking");
-};
+const check = () => console.log("Checking")
 
+
+check()
 console.log((check.letshavefun = "Alright Added I'm an object too"));
 
 // Array is an OBJECT
