@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/Zack-Dx/Javascript-Reference#readme",
   "devDependencies": {
-    "eslint": "^8.26.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-node": "^4.1.0",
     "eslint-config-prettier": "^8.5.0",
