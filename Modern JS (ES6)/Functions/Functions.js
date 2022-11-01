@@ -39,7 +39,10 @@ function textformatter(word, func) {
 }
 
 //One Liner Callback Function:
-const check = textformatter("zack",(zack) => zack.charAt(0).toUpperCase() + zack.slice(1));
+const check = textformatter(
+  "zack",
+  (zack) => zack.charAt(0).toUpperCase() + zack.slice(1)
+);
 
 console.log(check);
 
@@ -49,7 +52,6 @@ console.log(check);
   console.log("Setup Done");
 })(); // Here the function will called itself.
 
-
 //Good Practices to follow:
 
 // Use verbs to declare names = get,show,calc
@@ -57,3 +59,5 @@ console.log(check);
 //One function = One action (Action as per name)
 
 //Function name should be descriptive (Don't use a,b,c or such to declare functions.)
+
+// What function takes in () is Parameters and what we pass after calling the function in () is Arguments.
