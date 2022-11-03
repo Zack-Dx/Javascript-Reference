@@ -1,4 +1,7 @@
 // Object can call each other's methods
+// Function borrowing
+
+//Used to manipulate `this`
 
 
 // obj1.method.call(obj2)

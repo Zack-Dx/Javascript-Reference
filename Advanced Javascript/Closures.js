@@ -1,4 +1,4 @@
-// Closures : Function returning with it's lexical environment.
+// Closures : Function returning with it's lexical environment binded.
 
 //Inner Functions can access params and variables of it's parent function.
 
