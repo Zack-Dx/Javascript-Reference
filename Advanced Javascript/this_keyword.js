@@ -6,11 +6,11 @@
 
 // Case :1 (this inside a regular function.)
 
-function check() {
-  console.log(this);
-}
+// function check() {
+//   console.log(this);
+// }
 
-check(); // This will represent to the Window Object.
+// check(); // This will represent to the Window Object.
 
 // Case:2 (this inside a method)
 

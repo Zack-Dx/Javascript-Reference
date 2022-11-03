@@ -24,7 +24,6 @@ console.log(user);
 
 const check = () => console.log("Checking")
 
-
 check()
 console.log((check.letshavefun = "Alright Added I'm an object too"));
 
