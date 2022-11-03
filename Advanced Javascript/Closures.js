@@ -1,4 +1,6 @@
-// Closures :Inner Functions can access params and variables of it's parent function.
+// Closures : Function returning with it's lexical environment.
+
+//Inner Functions can access params and variables of it's parent function.
 
 //Example as per lexical scoping:
 // const outerFun =(a)=>{
