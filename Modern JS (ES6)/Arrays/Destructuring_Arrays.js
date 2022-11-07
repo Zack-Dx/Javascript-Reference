@@ -13,8 +13,8 @@ console.log(`My first value is ${top1} and last value is ${last}`);
 
 let arr2 = ["Zack"];
 
-let student;// Declared here
+let student; // Declared here
 
-[student] = arr2; // Assigned here 
+[student] = arr2; // Assigned here
 
-console.log(student)
+console.log(student);
